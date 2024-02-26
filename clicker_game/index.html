@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+        <meta charset="utf-8" />
+    </head>
+    <script src="/scripts/building.js"></script>
+    <script src="/scripts/script.js"></script>
+    <body>
+        <main>
+            <h1>Energy:</h1>
+            <h2 id="score">0</h2>
+            <h3>Energy per Second:</h3>
+            <h4 id="clicksps">0</h4>
+            <button type="button" id="click" onclick="scorePlusPlus()">Click Me!</button>
+            <br />
+            <button
+                type="button"
+                id="buyBlueDrink"
+                onclick="blueDrink.purchase()"
+                
+            >
+                Buy Blue Drink
+            </button>
+
+            <button
+                type="button"
+                id="buyYellowDrink"
+                onclick="yellowDrink.purchase()"
+                
+            >
+                Buy Yellow Drink
+            </button>
+
+            <button type="button" id="buyOrangeDrink" onclick="orangeDrink.purchase()">
+                Buy Orange Drink
+            </button>
+
+            <button type="button" id="buyRedDrink" onclick="redDrink.purchase()">
+                Buy Red Drink
+            </button>
+
+            <button type="button" id="buyPurpleDrink" onclick="purpleDrink.purchase()">
+                Buy Purple Drink
+            </button>
+
+            <button type="button" id="buyBlackDrink" onclick="blackDrink.purchase()">
+                Buy Black Drink
+            </button>
+        </main>
+    </body>
+</html>
